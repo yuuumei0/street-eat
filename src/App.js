@@ -7,11 +7,12 @@ import Testimonials from './components/Testimonials';
 import './App.css';
 
 function App() {
+  let testimonial= "Street Eats is the best food review site that has ever been built. Now I can pick the best food cart with confidence instead of wondering if I'm getting a raw deal."
   return(
     <div className="App">
       <Navbar/>
       <Splash/>
-      <Testimonials/>
+      <Testimonials userTestimonial={testimonial}/>
       <div className = "container">
         <div className="row">
 
